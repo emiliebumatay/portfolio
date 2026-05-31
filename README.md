@@ -1,8 +1,12 @@
 # Procurement - Spend Analytics Project
 ## Problem Statement
 Axiom Strat Technologies is facing a 13.6% budget variance, resulting in a 9.34 million overspend. This analysis investigates exactly which departments and expense categories are driving these losses.
-## Data
-To diagnose this issue, I analyzed Axiom Strat's transaction log dataset spanning three years from 2023 to 2025. The dataset contains [XXXX] rows and [xxxx] columns, capturing key fields like transaction dates, department names, budgets, actual spend, and expense categories.
+## Dataset
+- Transaction Log with purchase orders, dates, department, budgets, actual spend, and expense categories
+- Years covered: 2023 to 2025
+- Number of usable rows:
+- Original number of rows: 
+[Delete later: To diagnose this issue, I analyzed Axiom Strat's transaction log dataset spanning three years from 2023 to 2025. The dataset contains [XXXX] rows and [xxxx] columns, capturing key fields like transaction dates, department names, budgets, actual spend, and expense categories.]
 ## Methodology
 For data cleaning and analysis, I used a combination of Excel, Python, and Power BI.
 
