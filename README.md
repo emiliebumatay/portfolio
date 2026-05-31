@@ -21,3 +21,6 @@ Finally, I used Excel pivot tables to perform a quick validation of the over-bud
 - Budget reallocation: Since HR & Admin is under budget, a portion of HR & Admin's unused 3.49 million can be reallocated to cover the operational needs of Marketing & Sales and Facilities & Ops next year.
 - Implement Monthly Budget Tracking: Instead of reviewing spending at the end of the year when it's too late, we should track budget vs actual spend monthly. This will let management catch overspending early and enforce discipline before it gets out of hand.
 - Strengthen Data Governance: Wehave nearly 3 million in 'Unassigned' spend. Implementing a strict data governance policy for procurement coding could reallocate this spend and provide a more accurate picture of departmental budgets.
+## Project Assets
+**Raw dataset:
+**Cleaned dataset:
