@@ -7,9 +7,10 @@ Axiom Strat Technologies is facing a 13.6% budget variance, resulting in a 9.34 
 - Number of usable rows:
 - Original number of rows: 
 [Delete later: To diagnose this issue, I analyzed Axiom Strat's transaction log dataset spanning three years from 2023 to 2025. The dataset contains [XXXX] rows and [xxxx] columns, capturing key fields like transaction dates, department names, budgets, actual spend, and expense categories.]
+## Tools
+- Excel and Python – Data processing, cleaning, and exploratory data analysis (EDA)
+- Excel and Power BI - visualizations and data analysis
 ## Methodology
-For data cleaning and analysis, I used a combination of Excel, Python, and Power BI.
-
 First, I used Excel to handle initial data hygiene. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
 
 Next, because fixing inconsistent date formats is highly tedious in spreadsheets, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
