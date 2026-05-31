@@ -16,11 +16,15 @@ Finally, I used Excel pivot tables to perform a quick validation of the over-bud
 - HR & Admin presents the opposite probelm, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on parper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
 - There is 2.96M (3.8% of total spend) currently unassigned to any department. This represents a gap in data tracking.
 - Hardware Procurement and Software Licenses are the biggest expense categories, together representing the largest share of corporate spend.
+## Visualizations
+[Power BI visualizations here]
 ## Recommendations
 - Audit Hardware Procurement and Software Licenses: We need to audit these two categories to see if purchases are being misclassified, and enforce stricter spending limits.
 - Budget reallocation: Since HR & Admin is under budget, a portion of HR & Admin's unused 3.49 million can be reallocated to cover the operational needs of Marketing & Sales and Facilities & Ops next year.
 - Implement Monthly Budget Tracking: Instead of reviewing spending at the end of the year when it's too late, we should track budget vs actual spend monthly. This will let management catch overspending early and enforce discipline before it gets out of hand.
 - Strengthen Data Governance: Wehave nearly 3 million in 'Unassigned' spend. Implementing a strict data governance policy for procurement coding could reallocate this spend and provide a more accurate picture of departmental budgets.
+## Conclusion
+[Conclusion here]
 ## Project Assets
-**- Raw dataset:
-- Cleaned dataset:**
+- Raw dataset:
+- Cleaned dataset:
