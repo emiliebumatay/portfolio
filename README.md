@@ -15,7 +15,7 @@ Excel was used to handle initial data cleaning. I removed duplicate rows and fil
 
 To fix inconsistent date formats, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
 ### Data Analysis and Visualization
-Finally, I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
+I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
 ## Insights
 - Marketing & Sales and Facilities & Ops are our primary risk areas. Together, they drive over 8.6 million of the total budget overrun.
 - HR & Admin presents the opposite probelm, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on parper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
