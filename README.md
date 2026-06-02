@@ -18,7 +18,7 @@ To fix inconsistent date formats, I moved the data into Google Colab and used Py
 I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
 ## Insights
 - Marketing & Sales and Facilities & Ops are our primary risk areas. Together, they drive over 8.6 million of the total budget overrun.
-- HR & Admin presents the opposite probelm, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on parper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
+- HR & Admin presents the opposite problem, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on paper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
 - There is 2.96M (3.8% of total spend) currently unassigned to any department. This represents a gap in data tracking.
 - Hardware Procurement and Software Licenses are the biggest expense categories, together representing the largest share of corporate spend.
 ## Visualizations
