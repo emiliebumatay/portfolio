@@ -6,7 +6,6 @@ Axiom Strat Technologies is facing a 13.6% budget variance, resulting in a 9.34 
 - Years covered: 2023 to 2025
 - Number of usable rows:
 - Original number of rows: 
-[Delete later: To diagnose this issue, I analyzed Axiom Strat's transaction log dataset spanning three years from 2023 to 2025. The dataset contains [XXXX] rows and [xxxx] columns, capturing key fields like transaction dates, department names, budgets, actual spend, and expense categories.]
 ## Tools
 - Excel and Python – Data processing, cleaning, and exploratory data analysis (EDA)
 - Excel and Power BI - visualizations and data analysis
