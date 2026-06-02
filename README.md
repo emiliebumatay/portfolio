@@ -12,9 +12,9 @@ Axiom Strat Technologies is facing a 13.6% budget variance, resulting in a 9.34 
 - Excel and Power BI - visualizations and data analysis
 ## Methodology
 ### Data Cleaning
-First, I used Excel to handle initial data hygiene. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
+Excel was used to handle initial data cleaning. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
 
-Next, because fixing inconsistent date formats is highly tedious in spreadsheets, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
+To fix inconsistent date formats, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
 ### Data Analysis and Visualization
 Finally, I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
 ## Insights
