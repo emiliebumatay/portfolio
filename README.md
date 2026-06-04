@@ -1,7 +1,6 @@
 # Procurement - Spend Analytics Project
 ## Problem Statement
-Axiom Strat Technologies is facing a 9.34 million pesos overspend, representing a 13.6% budget variance. (Goal = 0 budget variance)
-This analysis investigates exactly which departments and expense categories are driving these losses.
+Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (2.06 million pesos), this analysis aims to bridge the gap by identifying the remaining 7.28 million pesos in addressable savings across departments.
 ## Dataset
 - Transaction Log with purchase orders, dates, department, budgets, actual spend, and expense categories
 - Years covered: 2023 to 2025
