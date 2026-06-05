@@ -1,7 +1,7 @@
 # Procurement - Spend Analytics Project
-## Problem Statement
+## 🎯 Problem Statement
 Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (2.06 million pesos), this analysis aims to bridge the gap by identifying the remaining 7.28 million pesos in addressable savings across departments.
-## Dataset
+## 📊 Data
 - **Source:** A 3-year synthetic corporate ERP procurement dump (2023–2025) generated using AI.
 - **Volume:** 1,265 raw records optimized down to 618 fully processed, *APPROVED* transaction rows.
 - **Key Attributes:** Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
@@ -18,7 +18,7 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 ### 2️⃣ Data Analysis & Dashboard (Power BI)
 * Executive-level dashboard design: Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
 
-## Insights and Visualizations
+## 💡 Insights and Visualizations
 - **Departmental overspend concentration:** Applying the 80/20 rule (Pareto principle), just two departments—*Marketing & Sales* and *Facilities & Ops*—are the primary risk areas driving a combined **₱8.69M** of the total budget overspend. Focusing cost-saving efforts on just these two areas allows the company to maximize its impact and easily hit the target.
 <div align="center">
 <img width="70%" alt="pbix-total budget overspend by department" src="https://github.com/user-attachments/assets/372fd6d5-ab13-4d7e-8ff6-5dbf25db2e1b" />
@@ -42,7 +42,7 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 * **Renegotiate Vendor Contracts for Top Expense Categories:** Target **Hardware Procurement** and **Software Licenses**—the two highest spending categories over the three-year period—for contract renegotiations. Consolidating software subscriptions or moving to long-term agreements will help permanently lower baseline costs.
 * **Investigate the Operational Delays in HR & Admin:** Look into why **HR & Admin** under-spent their budget by ₱3.49M. While under-spending looks like a saving on paper, a large negative gap often means important hiring was delayed or key operational projects were put on hold, which could hurt the company long-term.
 * **Fix Data Tracking Gaps:** Eliminate the ₱2.96M visibility gap by making department codes a mandatory field for all financial transactions. Cleaning up these "Unassigned" records will ensure 100% budget accountability and prevent messy data from reaching executive reports in the future.
-## Project Assets
+## 📂 Project Assets & Quick Links
 - Raw dataset: 
 - Cleaned dataset:
 - Power BI visualization:
