@@ -28,6 +28,10 @@ I used Excel pivot tables to perform a quick validation of the over-budget areas
 </div>
 
 - **The spending peak:** Budget performance was relatively stable in 2023, but spiked sharply in **2024**, which alone accounted for **₱5.57M** of the overspend before the company began pulling back and correcting course in 2025.
+<div align="center">
+<img width="70%" alt="pbix total spend timeline by fiscal year" src="https://github.com/user-attachments/assets/e903ab9a-377d-4743-b3be-ab3b017ca50e" />
+</div>
+  
 - **Major cost categories:** *Hardware Procurement* and *Software Licenses* represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiations.
 - **Hidden risks in under-spending:** *HR & Admin* presents the opposite problem, significantly under-spending their budget by nearly **₱3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
 - **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the cmompromises budget accountability.
