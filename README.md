@@ -1,19 +1,21 @@
 # Procurement - Spend Analytics Project
 ## 🎯 Problem Statement
-Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (2.06 million pesos), this analysis aims to bridge the gap by identifying the remaining 7.28 million pesos in addressable savings across departments.
+Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (**₱2.06M**), this analysis aims to bridge the gap by identifying the remaining **₱7.28M** in addressable savings across departments.
 ## 📊 Data
-- **Source:** A 3-year synthetic corporate ERP procurement dump (2023–2025) generated using AI.
+- **Source:** A 3-year (2023 to 2025) synthetic corporate ERP procurement dump generated using AI.
 - **Volume:** 1,265 raw records optimized down to 618 fully processed, *APPROVED* transaction rows.
 - **Key Attributes:** Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
 <img width="100%" alt="Cleaned Transactions (sample)" src="https://github.com/user-attachments/assets/5e470b6d-a866-4b3f-a900-4c3534d284ff" />
-<br><br>
-<img width="35%" alt="Executive Summary" src="https://github.com/user-attachments/assets/312baef9-0762-4906-85fe-705f387df2f0" />
+<br>
+<div align="center">
+<img width="45%" alt="Executive Summary" src="https://github.com/user-attachments/assets/541ffff1-331f-43b4-bf38-8841e24b5d0c" />
+</div>
 
 ## 🛠️ Tools & Methodology 
 ### 1️⃣ Data Preparation & Engineering (Python via Google Colab)
 * Data Cleaning: Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
 * Handling Missing Data: Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
-* Date Standardization and Calculations: Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated the core metrics `variance_php` and `variance_percentage`.
+* Date Standardization and Calculations: Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated a core metric `variance_php`.
   
 ### 2️⃣ Data Analysis & Dashboard (Power BI)
 * Executive-level dashboard design: Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
