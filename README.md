@@ -25,7 +25,7 @@ I used Excel pivot tables to perform a quick validation of the over-budget areas
 - Marketing & Sales and Facilities & Ops are our primary risk areas. Together, they drive over 8.6 million of the total budget overrun. (Pareto)
 - HR & Admin presents the opposite problem, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on paper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
 - There is 2.96M (3.8% of total spend) currently unassigned to any department. This represents a gap in data tracking.
-- Hardware Procurement and Software Licenses are the biggest expense categories, together representing the largest share of corporate spend.
+- Hardware Procurement and Software Licenses represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiation and cost containment.
 ## Visualizations
 [Power BI visualizations here]
 ## Recommendations
