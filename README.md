@@ -11,12 +11,12 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 
 ## 🛠️ Tools & Methodology 
 ### 1️⃣ Data Preparation & Engineering (Python)
-* **Data Cleaning:** Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
-* **Handling Missing Data:** Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
-* **Date Standardization and Calculations:** Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated the core metrics `variance_php` and `variance_percentage`.
+* Data Cleaning: Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
+* Handling Missing Data: Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
+* Date Standardization and Calculations: Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated the core metrics `variance_php` and `variance_percentage`.
   
 ### 2️⃣ Data Analysis & Dashboard (Power BI)
-* **Executive-level dashboard design:** Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
+* Executive-level dashboard design: Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
 
 ## Insights and Visualizations
 - **Departmental overspend concentration:** Applying the 80/20 rule (Pareto principle), just two departments—*Marketing & Sales* and *Facilities & Ops*—are the primary risk areas driving a combined **₱8.69M** of the total budget overspend. Focusing cost-saving efforts on just these two areas allows the company to maximize its impact and easily hit the target.
