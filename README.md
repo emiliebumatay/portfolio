@@ -29,7 +29,7 @@ I used Excel pivot tables to perform a quick validation of the over-budget areas
 
 - **The spending peak:** Budget performance was relatively stable in 2023, but spiked sharply in **2024**, which alone accounted for **₱5.57M** of the overspend before the company began pulling back and correcting course in 2025.
 <div align="center">
-<img width="70%" alt="pbix total spend timeline by fiscal year" src="https://github.com/user-attachments/assets/e903ab9a-377d-4743-b3be-ab3b017ca50e" />
+<img width="70%" alt="image" src="https://github.com/user-attachments/assets/7f4b112b-3b5e-4858-a1ab-626cdd061378" />
 </div>
   
 - **Major cost categories:** *Hardware Procurement* and *Software Licenses* represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiations.
