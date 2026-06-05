@@ -22,10 +22,11 @@ To fix inconsistent date formats, I moved the data into Google Colab and used Py
 ### Data Analysis and Visualization
 I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
 ## Insights
-- Marketing & Sales and Facilities & Ops are our primary risk areas. Together, they drive over 8.6 million of the total budget overrun. (Pareto)
-- HR & Admin presents the opposite problem, significantly under-spending their budget by nearly 3.49 million. While this looks like savings on paper, a large negative variance like this often indicates delayed projects or under-staffing that needs to be investigated.
-- There is 2.96M (3.8% of total spend) currently unassigned to any department. This represents a gap in data tracking.
-- Hardware Procurement and Software Licenses represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiation and cost containment.
+- **Departmental overspend concentration:** Marketing & Sales and Facilities & Ops are our primary risk areas, driving a combined **P8.69M** of the total budget overrun. (Pareto) Focusing cost-saving efforts on these twoareas would easily allow the company to hit its target.
+- **The spending peak:** Budget performance was relatively stable in 2023, but spiked sharply in **2024**, which alone accounted for **P5.57M** of the overspend before the company began pulling back and correcting course in 2025.
+- **Major cost categories:** Hardware Procurement and Software Licenses represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiations.
+- **Hidden risks in under-spending:** HR & Admin presents the opposite problem, significantly under-spending their budget by nearly **P3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
+- **Data governance gaps:** There is **2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the cmompromises budget accountability.
 ## Visualizations
 [Power BI visualizations here]
 ## Recommendations
