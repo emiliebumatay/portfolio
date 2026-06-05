@@ -10,7 +10,7 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 <img width="35%" alt="Executive Summary" src="https://github.com/user-attachments/assets/312baef9-0762-4906-85fe-705f387df2f0" />
 
 ## 🛠️ Tools & Methodology 
-### 1️⃣ Data Preparation & Engineering (Python)
+### 1️⃣ Data Preparation & Engineering (Python via Google Colab)
 * Data Cleaning: Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
 * Handling Missing Data: Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
 * Date Standardization and Calculations: Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated the core metrics `variance_php` and `variance_percentage`.
