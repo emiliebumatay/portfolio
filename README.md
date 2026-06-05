@@ -36,13 +36,12 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
   
 - **Hidden risks in under-spending:** *HR & Admin* presents the opposite problem, significantly under-spending their budget by nearly **₱3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
 - **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the compromises budget accountability.
-## Recommendations
-- Implement Monthly Budget Tracking: Instead of reviewing spending at the end of the year when it's too late, we should track budget vs actual spend monthly. This will let management catch overspending early and enforce discipline before it gets out of hand.
-- Audit Hardware Procurement and Software Licenses: We need to audit these two categories to see if purchases are being misclassified, and enforce stricter spending limits.
-- Budget reallocation: Since HR & Admin is under budget, a portion of HR & Admin's unused 3.49 million can be reallocated to cover the operational needs of Marketing & Sales and Facilities & Ops next year.
-- Strengthen Data Governance: Wehave nearly 3 million in 'Unassigned' spend. Implementing a strict data governance policy for procurement coding could reallocate this spend and provide a more accurate picture of departmental budgets.
-## Conclusion
-[Conclusion here] - remove
+## 🚀 Strategic Recommendations
+* **Focus Cost Controls on High-Risk Departments:** Instead of cutting budgets across the entire company, focus cost-saving efforts strictly on **Marketing & Sales** and **Facilities & Ops**. Because these two departments drive ₱8.69M of the overspend, targeting them directly will give the company the biggest impact with the least amount of disruption.
+* **Review the 2024 Spending Spike:** Run a review on what caused the massive ₱5.57M overspend peak in 2024. Identifying whether this was due to specific project approvals or unexpected vendor costs will help set up rules to prevent a similar spike from happening again.
+* **Renegotiate Vendor Contracts for Top Expense Categories:** Target **Hardware Procurement** and **Software Licenses**—the two highest spending categories over the three-year period—for contract renegotiations. Consolidating software subscriptions or moving to long-term agreements will help permanently lower baseline costs.
+* **Investigate the Operational Delays in HR & Admin:** Look into why **HR & Admin** under-spent their budget by ₱3.49M. While under-spending looks like a saving on paper, a large negative gap often means important hiring was delayed or key operational projects were put on hold, which could hurt the company long-term.
+* **Fix Data Tracking Gaps:** Eliminate the ₱2.96M visibility gap by making department codes a mandatory field for all financial transactions. Cleaning up these "Unassigned" records will ensure 100% budget accountability and prevent messy data from reaching executive reports in the future.
 ## Project Assets
 - Raw dataset: 
 - Cleaned dataset:
