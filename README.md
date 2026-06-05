@@ -2,12 +2,10 @@
 ## Problem Statement
 Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (2.06 million pesos), this analysis aims to bridge the gap by identifying the remaining 7.28 million pesos in addressable savings across departments.
 ## Dataset
-- Transaction Log with purchase orders, dates, department, budgets, actual spend, and expense categories
-- Years covered: 2023 to 2025
-- Number of usable rows:
+- **Source:** A 3-year synthetic corporate ERP procurement dump (2023–2025) generated using AI.
+- Volume: 1,265 raw records optimized down to 618 fully processed, "APPROVED" transaction rows.
+- Key Attributes: Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
 - Original number of rows:
-- {generated in Gemini...same as data from ERP system)
-- (screenshot of data)
 ## Tools
 - Excel and Python – Data processing, cleaning, and exploratory data analysis (EDA) --- (use Python only)
 - Excel and Power BI - visualizations and data analysis
