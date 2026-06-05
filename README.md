@@ -21,7 +21,7 @@ Excel was used to handle initial data cleaning. I removed duplicate rows and fil
 To fix inconsistent date formats, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
 ### Data Analysis and Visualization
 I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
-## Insights
+## Insights and Visualizations
 - **Departmental overspend concentration:** Applying the 80/20 rule (Pareto principle), just two departments—*Marketing & Sales* and *Facilities & Ops*—are the primary risk areas driving a combined **₱8.69M** of the total budget overspend. Focusing cost-saving efforts on just these two areas allows the company to maximize its impact and easily hit the target.
 <div align="center">
 <img width="70%" alt="pbix-total budget overspend by department" src="https://github.com/user-attachments/assets/372fd6d5-ab13-4d7e-8ff6-5dbf25db2e1b" />
@@ -38,8 +38,8 @@ I used Excel pivot tables to perform a quick validation of the over-budget areas
 </div>
   
 - **Hidden risks in under-spending:** *HR & Admin* presents the opposite problem, significantly under-spending their budget by nearly **₱3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
-- **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the cmompromises budget accountability.
-## Visualizations
+- **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the compromises budget accountability.
+## Executive Dashboard
 [Power BI visualizations here]
 ## Recommendations
 - Implement Monthly Budget Tracking: Instead of reviewing spending at the end of the year when it's too late, we should track budget vs actual spend monthly. This will let management catch overspending early and enforce discipline before it gets out of hand.
