@@ -13,7 +13,25 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 - **Python (Pandas, NumPy):** Used within **Google Colab** for data cleaning and transformation.
 - **Power BI:** Used for analysis and visualizations.
 ## Methodology
-### Data Cleaning
+
+
+
+## 🛠️ Methodology & Project Workflow
+
+An end-to-end data analytics workflow was developed to clean raw operational data and transform it into an executive-ready business intelligence solution.
+
+### 1️⃣ Data Preparation & Engineering (Python)
+* **Data Cleaning:** Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
+* **Handling Missing Data:** Standardized department and category names and flagged missing department entries as **"Unassigned"** to keep all data fully accountable.
+* **Date Standardization and Calculations:** Uniformly formatted all transaction dates, extracted `Fiscal Year`, and calculated the core metrics **variance** and **variance percentage**.
+  
+### 2️⃣ Data Analysis & Dashboard (Power BI)
+* **Executive-level dashboard design:** Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
+
+
+
+
+### Data Cleaning [tool icon] - Python (Google Colab)
 Excel was used to handle initial data cleaning. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
 (used Pandas)
 (you can also create visualizations using Python -- matplotlib, seaborn -- pip install matplotlib)
