@@ -10,8 +10,8 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 <img width="35%" alt="Executive Summary" src="https://github.com/user-attachments/assets/312baef9-0762-4906-85fe-705f387df2f0" />
 
 ## Tools
-- Excel and Python – Data processing, cleaning, and exploratory data analysis (EDA) --- (use Python only)
-- Excel and Power BI - visualizations and data analysis
+- **Python (Pandas, NumPy):** Used within **Google Colab** for data cleaning and transformation.
+- **Power BI:** Used for analysis and visualizations.
 ## Methodology
 ### Data Cleaning
 Excel was used to handle initial data cleaning. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
