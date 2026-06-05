@@ -5,10 +5,8 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 - **Source:** A 3-year synthetic corporate ERP procurement dump (2023–2025) generated using AI.
 - **Volume:** 1,265 raw records optimized down to 618 fully processed, "APPROVED" transaction rows.
 - **Key Attributes:** Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
-<div style="display: flex; flex-direction: column; gap: 0px;">
-  <img alt="Cleaned_Transactions" src="https://github.com/user-attachments/assets/47a12777-559c-47b0-ab2f-c77e4acb3f95" style="max-width: 100%; height: auto; margin: 0; padding: 0; display: block;" />
-  <img alt="Executive Summary" src="https://github.com/user-attachments/assets/05797f39-5c8a-4e6a-82ab-ea57b5de82ae" style="max-width: 100%; height: auto; margin: 0; padding: 0; display: block;" />
-</div>
+<img width="1300" height="199" alt="Cleaned Transactions (sample)" src="https://github.com/user-attachments/assets/99929a48-b96d-43af-8569-1315558dc0fa" />
+<img width="456" height="320" alt="Executive Summary" src="https://github.com/user-attachments/assets/312baef9-0762-4906-85fe-705f387df2f0" />
 ## Tools
 - Excel and Python – Data processing, cleaning, and exploratory data analysis (EDA) --- (use Python only)
 - Excel and Power BI - visualizations and data analysis
