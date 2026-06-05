@@ -9,17 +9,7 @@ Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.
 <br><br>
 <img width="35%" alt="Executive Summary" src="https://github.com/user-attachments/assets/312baef9-0762-4906-85fe-705f387df2f0" />
 
-## Tools
-- **Python (Pandas, NumPy):** Used within **Google Colab** for data cleaning and transformation.
-- **Power BI:** Used for analysis and visualizations.
-## Methodology
-
-
-
-## 🛠️ Methodology & Project Workflow
-
-An end-to-end data analytics workflow was developed to clean raw operational data and transform it into an executive-ready business intelligence solution.
-
+## 🛠️ Tools & Methodology 
 ### 1️⃣ Data Preparation & Engineering (Python)
 * **Data Cleaning:** Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
 * **Handling Missing Data:** Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
@@ -28,17 +18,6 @@ An end-to-end data analytics workflow was developed to clean raw operational dat
 ### 2️⃣ Data Analysis & Dashboard (Power BI)
 * **Executive-level dashboard design:** Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
 
-
-
-
-### Data Cleaning [tool icon] - Python (Google Colab)
-Excel was used to handle initial data cleaning. I removed duplicate rows and filtered the dataset to include only 'Approved' transactions, dropping any pending or rejected requests. I also standardized the spend amounts into a consistent numeric format.
-(used Pandas)
-(you can also create visualizations using Python -- matplotlib, seaborn -- pip install matplotlib)
-
-To fix inconsistent date formats, I moved the data into Google Colab and used Python to clean the dates efficiently. While in Python, I also standardized the department and vendor names to ensure consistent spelling and capitalization across the board.
-### Data Analysis and Visualization
-I used Excel pivot tables to perform a quick validation of the over-budget areas, before loading the clean dataset into Power BI to build the relational data model, write my KPI measures, and design the final dashboard.
 ## Insights and Visualizations
 - **Departmental overspend concentration:** Applying the 80/20 rule (Pareto principle), just two departments—*Marketing & Sales* and *Facilities & Ops*—are the primary risk areas driving a combined **₱8.69M** of the total budget overspend. Focusing cost-saving efforts on just these two areas allows the company to maximize its impact and easily hit the target.
 <div align="center">
