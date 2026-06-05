@@ -2,8 +2,8 @@
 ## 🎯 Problem Statement
 Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (**₱2.06M**), this analysis aims to bridge the gap by identifying the remaining **₱7.28M** in addressable savings across departments.
 ## 📊 Data
-- **Source:** A 3-year (2023 to 2025) synthetic corporate ERP procurement dump generated using AI.
-- **Volume:** 1,265 raw records optimized down to 618 fully processed, *APPROVED* transaction rows.
+- **Source:** A 3-year (2023 to 2025) simulated corporate ERP procurement dataset generated using AI.
+- **Volume:** 602 final transaction records (refined from an initial dataset of 1,285 raw rows).
 - **Key Attributes:** Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
 <img width="100%" alt="Cleaned Transactions (sample)" src="https://github.com/user-attachments/assets/5e470b6d-a866-4b3f-a900-4c3534d284ff" />
 <br>
@@ -12,12 +12,12 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
 </div>
 
 ## 🛠️ Tools & Methodology 
-### 1️⃣ Data Preparation & Engineering (Python via Google Colab)
+#### 1️⃣ Data Preparation & Engineering (Python via Google Colab)
 * Data Cleaning: Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
 * Handling Missing Data: Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
 * Date Standardization and Calculations: Uniformly formatted all transaction dates, extracted `Fiscal_Year`, and calculated a core metric `variance_php`.
   
-### 2️⃣ Data Analysis & Dashboard (Power BI)
+#### 2️⃣ Data Analysis & Dashboard (Power BI)
 * Executive-level dashboard design: Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
 
 ## 💡 Insights and Visualizations
@@ -36,14 +36,18 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
 <img width="70%" alt="pbix top expense categories by total spend" src="https://github.com/user-attachments/assets/96db11f4-0df7-4a4e-9fc9-0fffffb28766" />
 </div>
   
-- **Hidden risks in under-spending:** *HR & Admin* presents the opposite problem, significantly under-spending their budget by nearly **₱3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
-- **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap the compromises budget accountability.
+- **Hidden risks in under-spending:** *HR & Admin* is significantly under-spending their budget by nearly **₱3.49M**. While this appears as a saving, a large negative variance often indicates delayed projects, deferred hiring, or operational bottlenecks that require investigation.
+- **Data governance gaps:** There is **₱2.96M** (3.8% of total spend) currently unassigned to any department. This represents an internal data tracking gap that compromises budget accountability.
 ## 🚀 Strategic Recommendations
 * **Focus Cost Controls on High-Risk Departments:** Instead of cutting budgets across the entire company, focus cost-saving efforts strictly on **Marketing & Sales** and **Facilities & Ops**. Because these two departments drive ₱8.69M of the overspend, targeting them directly will give the company the biggest impact with the least amount of disruption.
 * **Review the 2024 Spending Spike:** Run a review on what caused the massive ₱5.57M overspend peak in 2024. Identifying whether this was due to specific project approvals or unexpected vendor costs will help set up rules to prevent a similar spike from happening again.
 * **Renegotiate Vendor Contracts for Top Expense Categories:** Target **Hardware Procurement** and **Software Licenses**—the two highest spending categories over the three-year period—for contract renegotiations. Consolidating software subscriptions or moving to long-term agreements will help permanently lower baseline costs.
 * **Investigate the Operational Delays in HR & Admin:** Look into why **HR & Admin** under-spent their budget by ₱3.49M. While under-spending looks like a saving on paper, a large negative gap often means important hiring was delayed or key operational projects were put on hold, which could hurt the company long-term.
 * **Fix Data Tracking Gaps:** Eliminate the ₱2.96M visibility gap by making department codes a mandatory field for all financial transactions. Cleaning up these "Unassigned" records will ensure 100% budget accountability and prevent messy data from reaching executive reports in the future.
+
+## Dashboard
+<img width="1412" height="819" alt="pbix-spend and budget analytics dashboard" src="https://github.com/user-attachments/assets/a0b9ca0e-647a-4cb6-8bc0-2363bd09867e" />
+
 ## 📂 Project Assets & Quick Links
 - Raw dataset: 
 - Cleaned dataset:
