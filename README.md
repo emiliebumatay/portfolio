@@ -24,7 +24,7 @@ I used Excel pivot tables to perform a quick validation of the over-budget areas
 ## Insights
 - **Departmental overspend concentration:** Applying the 80/20 rule (Pareto principle), just two departments—*Marketing & Sales* and *Facilities & Ops*—are the primary risk areas driving a combined **₱8.69M** of the total budget overspend. Focusing cost-saving efforts on just these two areas allows the company to maximize its impact and easily hit the target.
 <div align="center">
-<img width="1239" height="597" alt="pbix-total budget overspend by department" src="https://github.com/user-attachments/assets/372fd6d5-ab13-4d7e-8ff6-5dbf25db2e1b" />
+<img width="50%" alt="pbix-total budget overspend by department" src="https://github.com/user-attachments/assets/372fd6d5-ab13-4d7e-8ff6-5dbf25db2e1b" />
 </div>
 - **The spending peak:** Budget performance was relatively stable in 2023, but spiked sharply in **2024**, which alone accounted for **₱5.57M** of the overspend before the company began pulling back and correcting course in 2025.
 - **Major cost categories:** *Hardware Procurement* and *Software Licenses* represent the highest overall categories of expenditure across the three-year period, making them the primary targets for long-term contract renegotiations.
