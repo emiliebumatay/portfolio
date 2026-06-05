@@ -3,7 +3,7 @@
 Axiom Strat Technologies is currently facing a 9.34 million pesos overspend (13.6% variance). To bring operations back within a standard corporate threshold of 3% (2.06 million pesos), this analysis aims to bridge the gap by identifying the remaining 7.28 million pesos in addressable savings across departments.
 ## Dataset
 - **Source:** A 3-year synthetic corporate ERP procurement dump (2023–2025) generated using AI.
-- **Volume:** 1,265 raw records optimized down to 618 fully processed, "APPROVED" transaction rows.
+- **Volume:** 1,265 raw records optimized down to 618 fully processed, *APPROVED* transaction rows.
 - **Key Attributes:** Tracks transaction details across Fiscal Years, Departments, Vendors, and Amounts (PHP).
 <img width="100%" alt="Cleaned Transactions (sample)" src="https://github.com/user-attachments/assets/99929a48-b96d-43af-8569-1315558dc0fa" />
 <br><br>
@@ -23,7 +23,7 @@ An end-to-end data analytics workflow was developed to clean raw operational dat
 ### 1️⃣ Data Preparation & Engineering (Python)
 * **Data Cleaning:** Removed duplicate records and filtered out non-final transactions (*Pending* and *Rejected* files) to ensure the analysis focused only on realized expenses.
 * **Handling Missing Data:** Standardized department and category names and flagged missing department entries as *Unassigned* to keep all data fully accountable.
-* **Date Standardization and Calculations:** Uniformly formatted all transaction dates, extracted `Fiscal Year`, and calculated the core metrics 'variance_php' and 'variance_percentage'.
+* **Date Standardization and Calculations:** Uniformly formatted all transaction dates, extracted `Fiscal Year`, and calculated the core metrics `variance_php` and `variance_percentage`.
   
 ### 2️⃣ Data Analysis & Dashboard (Power BI)
 * **Executive-level dashboard design:** Designed a clean, easy-to-navigate interface using intuitive visual hierarchies, uniform theme colors, and global interactive filters.
