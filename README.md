@@ -17,13 +17,13 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
 
 ## 🛠️ Tools & Methodology 
 
- 1️⃣ Data Preparation & Engineering (Python via Google Colab)
+ 1️⃣ **Python via Google Colab** - Data Cleaning & Engineering
 * **Data Cleaning:** Removed duplicate records, filtered out non-final transactions (*Pending* and *Rejected*) to ensure the analysis focused only on realized expenses
 * **Standardization:** Uniformly formatted transaction dates, departments, and expense categories
 * **Handling Missing Data:** Flagged missing department entries as *Unassigned* to keep all data fully accountable
 * **Calculations:** Extracted `Fiscal_Year` from the transaction dates, calculated a core metric `variance_php`.
   
- 2️⃣ Data Analysis & Dashboard (Power BI)
+ 2️⃣ **Power BI** - Data Analysis & Dashboard
 * **Executive-level dashboard design:** clean, easy-to-navigate interface, uses intuitive visual hierarchies, uniform theme colors, with global interactive filters
 <div align="center">
 <img width="80%" alt="pbix-procurement spend and budget variance analysis" src="https://github.com/user-attachments/assets/b7acbc46-9364-460f-8af4-ce88ecc29728" />
