@@ -1,6 +1,6 @@
 # Procurement Spend and Budget Variance Analysis
 ## 🎯 Problem Statement
-Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance). To bring operations back within an acceptable corporate variance threshold of 3% (**₱2.06M**), this analysis aims to bridge the gap by identifying the remaining **₱7.28M** in addressable savings across departments.
+Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance over the budget). To bring operations back within an acceptable corporate variance threshold of 3% (**₱2.06M**), this analysis aims to bridge the gap by identifying the remaining **₱7.28M** in addressable savings across departments.
 <div align="center">
 <img width="50%" alt="pbix-ProblemStatement" src="https://github.com/user-attachments/assets/b57f7613-c82a-4b76-9513-ad2ed0073c16" />
 </div>
@@ -82,9 +82,3 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
   
 - **Renegotiate Vendor Contracts for Top Expense Categories:** Target **Hardware Procurement** and **Software Licenses**—the two highest spending categories over the three-year period—for contract renegotiations. Consolidating software subscriptions or moving to long-term agreements will help permanently lower baseline costs.
 </details>
-
-## 📂 Project Assets & Quick Links
-- Raw dataset: 
-- Cleaned dataset:
-- Power BI visualization:
-- Python (link to Google Colab)
