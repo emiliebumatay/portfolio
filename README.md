@@ -26,7 +26,7 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
  2️⃣ **Power BI** - Data Analysis & Dashboard
 * **Executive-level dashboard design:** clean, easy-to-navigate interface, uses intuitive visual hierarchies, uniform theme colors, with global interactive filters
 <div align="center">
-<img width="80%" alt="pbix-procurement spend and budget variance analysis" src="https://github.com/user-attachments/assets/b7acbc46-9364-460f-8af4-ce88ecc29728" />
+<img width="100%" alt="pbix-procurement spend and budget variance analysis" src="https://github.com/user-attachments/assets/b7acbc46-9364-460f-8af4-ce88ecc29728" />
 </div>
 
 ## 💡 Insights
