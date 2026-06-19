@@ -1,9 +1,6 @@
 # Procurement Spend and Budget Variance Analysis
 ## 🎯 Problem Statement
-Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance over the budget). To bring operations back within an acceptable corporate variance threshold of 3% (**₱2.06M**), this analysis aims to bridge the gap by identifying the remaining **₱7.28M** in addressable savings across departments.
-<div align="center">
-<img width="50%" alt="pbix-ProblemStatement" src="https://github.com/user-attachments/assets/b57f7613-c82a-4b76-9513-ad2ed0073c16" />
-</div>
+Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance over the approved budget). This analysis aims to investigate the root cause behind this financial leak, identify unmanaged expenditures across departments, and provide data-driven actions to help leadership recover these addressable savings.
 
 ## 📈 Data
 - **Source:** A 3-year (2023 to 2025) simulated corporate ERP procurement dataset generated using AI.
