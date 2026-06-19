@@ -3,7 +3,7 @@
 Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% variance over the approved budget). This analysis aims to investigate the root cause behind this financial leak, identify unmanaged expenditures across departments, and provide data-driven actions to help leadership recover these addressable savings.
 
 ## 📈 Data
-- **Source:** A 3-year (2023 to 2025) simulated corporate ERP procurement dataset generated using AI.
+- **Source:** A 3-year (2023 to 2025) simulated dataset generated using AI to closely mirror transaction structures and common data gaps found in actual enterprise ERP procurement systems.
 - **Transaction Records:** 602 final transaction records with key variables `FISCAL_YEAR`, `DEPARTMENT_NAME`, `EXPENSE_CATEGORY`, `RAW_AMOUNT` in PHP
 - **Executive Summary of Budget and Spend per Department:** including a calculated metric `variance_php`
 <img width="100%" alt="Cleaned Transactions (sample)" src="https://github.com/user-attachments/assets/5e470b6d-a866-4b3f-a900-4c3534d284ff" />
@@ -19,6 +19,14 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
 * **Standardization:** Uniformly formatted transaction dates, raw amounts, departments, and expense categories
 * **Handling Missing Data:** Flagged missing department entries as *Unassigned* to keep all data fully accountable
 * **Calculations:** Extracted `Fiscal_Year` from the transaction dates, calculated a core metric `variance_php`.
+* Examples:
+
+<div align="center">
+<img width="70%" alt="python-clean departments" src="https://github.com/user-attachments/assets/5e949b6e-d88e-4d0f-9f7c-ead338844cd5" />
+<img width="70%" alt="python-approved only" src="https://github.com/user-attachments/assets/f33def36-28ac-483c-8e7b-fe57af7a4e30" />
+<img width="70%" alt="python-removed duplicates" src="https://github.com/user-attachments/assets/3963e249-d9f8-4681-a60e-7f26a0190458" />
+</div>
+
   
  2️⃣ **Power BI** - Data Analysis & Dashboard
 * **Executive-level dashboard design:** clean, easy-to-navigate interface, uses intuitive visual hierarchies, uniform theme colors, with global interactive filters
@@ -29,7 +37,8 @@ Axiom Strat Technologies is currently facing a **₱9.34M** overspend (13.6% var
 ## 💡 Insights
 - **Departmental overspend concentration:**
   - A combined **₱8.69M** of the total budget overspend is concentrated in just two departments: **Marketing & Sales** and **Facilities & Ops**
-  - [Pareto principle] Targeting optimization strategies in these two areas alone will successfully fulfill and surpass the targeted **₱7.28M** budget recovery goal.
+  - _[Pareto principle]_ Targeting optimization strategies in these two high-impact areas alone will successfully address the majority of the company's entire overspend problem, achieving maximum financial recovery with minimal operational disruption.
+
 <div align="center">
 <img width="70%" alt="pbix-total budget overspend by department" src="https://github.com/user-attachments/assets/372fd6d5-ab13-4d7e-8ff6-5dbf25db2e1b" />
 </div>
